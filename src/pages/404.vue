@@ -1,11 +1,11 @@
 <template>
   <Layout>
     <h1 class="category-title text-center space-bottom">
-      Document non trouvé
+      404 Not Found
     </h1>
 
     <div class="text-center">
-      Le document que vous cherchez n'existe pas.
+      Sorry, page not found...
     </div>
   </Layout>
 </template>

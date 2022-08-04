@@ -6,33 +6,29 @@
 
 module.exports = {
   siteUrl: "http://localhost:8080",
-  siteName: "Gridsome Flex Markdown Start",
-  siteDescription: "My Starter",
+  siteName: "ymtdzzz.dev",
+  siteDescription: "エンジニア的なあれこれ",
   metadata: {
-    siteAuthor: "Me",
-    sitePublished: 2021,
+    siteAuthor: "ymtdzzz",
+    sitePublished: 2022,
     pages: [
       { title: "About me", link: "/pages/about/" },
-      {
-        title: "The theme",
-        link: "//github.com/phoenix741/gridsome-flex-markdown-starter",
-      },
     ],
     socials: [
-      { type: "github", link: "//github.com/phoenix741/" },
-      { type: "rss", link: "/feed.atom" },
+      { type: "github", link: "//github.com/ymtdzzz/" },
+      { type: "twitter", link: "//twitter.com/ymtdzzz" },
     ],
     utterances: {
-      repo: "phoenix741/comments.myblog",
-      issueTerm: "title",
-      label: "discussion",
+      repo: "",
+      issueTerm: "",
+      label: "",
     },
   },
   plugins: [
     {
       use: "@gridsome/source-filesystem",
       options: {
-        baseDir: "content/posts",
+        baseDir: "../content/posts",
         path: "**/*.md",
         typeName: "Post",
         refs: {
@@ -48,27 +44,9 @@ module.exports = {
       },
     },
     {
-      use: "@microflash/gridsome-plugin-feed",
-      options: {
-        contentTypes: ["Post"],
-        feedOptions: {
-          title: "Gridsome Flex Markdown Start",
-          description: "My Starter",
-        },
-        rss: {
-          enabled: true,
-          output: "/feed.xml",
-        },
-        atom: {
-          enabled: true,
-          output: "/feed.atom",
-        },
-      },
-    },
-    {
       use: "@gridsome/source-filesystem",
       options: {
-        baseDir: "content/pages",
+        baseDir: "../content/pages",
         path: "*.md",
         typeName: "BlogPage",
       },

@@ -2,7 +2,7 @@
   <Layout>
     <article class="single">
       <header>
-        <h1>Catégories</h1>
+        <h1>Categories</h1>
       </header>
       <div>
         <ul class="list">

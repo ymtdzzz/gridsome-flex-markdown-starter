@@ -20,7 +20,7 @@
       </div>
 
       <div class="related-posts">
-        <h4>Billets similaires</h4>
+        <h4>Related posts</h4>
         <ul class="related-posts">
           <li v-for="rel in related" :key="rel.id">
             <g-link :to="rel.path">{{ rel.title }} </g-link>

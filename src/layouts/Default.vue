@@ -27,7 +27,6 @@
         <g-link to="/archives">Archives</g-link>
         <g-link to="/categories">Categories</g-link>
         <g-link to="/tags">Tags</g-link>
-        <g-link to="/feed.atom">ATOM</g-link>
       </nav>
 
       <slot />
