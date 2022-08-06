@@ -26,6 +26,14 @@ module.exports = {
   },
   plugins: [
     {
+      use: 'gridsome-plugin-gtm',
+      options: {
+        id: 'G-TZ03BWJ781',
+        enabled: true,
+        debug: true
+      }
+    },
+    {
       use: "@gridsome/source-filesystem",
       options: {
         baseDir: "../content/posts",
