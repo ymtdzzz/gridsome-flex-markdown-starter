@@ -19,9 +19,9 @@ module.exports = {
       { type: "twitter", link: "//twitter.com/ymtdzzz" },
     ],
     utterances: {
-      repo: "",
-      issueTerm: "",
-      label: "",
+      repo: "ymtdzzz/ymtdzzz-dev",
+      issueTerm: "title",
+      label: "comment",
     },
   },
   plugins: [
@@ -86,7 +86,7 @@ module.exports = {
       plugins: [
         ["@gridsome/remark-prismjs", { showLineNumbers: true }],
         "remark-inline-links",
-        ["remark-toc", { heading: "sommaire" }],
+        ["remark-toc", { heading: "Table of Contents" }],
         "remark-attr",
       ],
       config: {
