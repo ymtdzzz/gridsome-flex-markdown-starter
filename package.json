@@ -14,6 +14,7 @@
     "@microflash/gridsome-plugin-feed": "^1.2.1",
     "gridsome": "^0.7.23",
     "gridsome-plugin-gtm": "^0.1.1",
+    "gridsome-plugin-remark-mermaid": "^1.0.1",
     "less": "^4.1.1",
     "less-loader": "^7.0.0",
     "remark": "^10.0.0",
