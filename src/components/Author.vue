@@ -2,7 +2,7 @@
   <div style="display: contents">
     <g-link to="/">
       <g-image
-        src="https://avatars.githubusercontent.com/u/44557218?v=4"
+        src="~/assets/img/author.jpeg"
         :alt="$static.metadata.siteName"
       ></g-image>
     </g-link>

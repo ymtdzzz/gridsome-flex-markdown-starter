@@ -7,3 +7,4 @@ dist
 .env
 .env.*
 static
+src/assets/images
